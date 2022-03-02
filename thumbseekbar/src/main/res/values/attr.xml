@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ThumbSeekBar">
+        <!--min < max, default: 0-->
+        <attr name="thumb_min" format="integer|reference" />
+        <!--min < max, default: 100-->
+        <attr name="thumb_max" format="integer|reference" />
+        <!--real time progress value, default: min-->
+        <attr name="thumb_progress" format="integer|reference" />
+        <!-- Drawable used for the progress mode. -->
+        <attr name="thumb_progress_drawable" format="reference" />
+        <!--min height of thumb-progress, default: 2dp-->
+        <attr name="thumb_progress_min_height" format="dimension|reference" />
+        <!--max height of thumb-progress, default: 2dp-->
+        <attr name="thumb_progress_max_height" format="dimension|reference" />
+        <!--color of thumb, default: white-->
+        <attr name="thumb_color" format="color|reference" />
+        <!--拇指的半径，取值范围为：8dp~16dp-->
+        <attr name="thumb_radius" format="dimension|reference" />
+        <!--拖动时拇指的半径缩放比例，取值范围为：1.0f~2.0f-->
+        <attr name="thumb_radius_zoom_on_dragging" format="float" />
+        <!--duration of animation, default: 200ms-->
+        <attr name="thumb_anim_duration" format="integer" />
+        <!--show tip, default: false-->
+        <attr name="thumb_show_tip" format="boolean" />
+        <!--tip shows all time, default: false-->
+        <attr name="thumb_show_tip_always" format="boolean" />
+        <!--text size of progress-text, default: 14sp-->
+        <attr name="thumb_text_size" format="dimension|reference" />
+        <!--text color of progress-text, default: same as left-track's color-->
+        <attr name="thumb_text_color" format="color|reference" />
+        <!--SeekBar是否拦截点击切换进度【true:拦截，false:不拦截】，默认为：true-->
+        <attr name="thumb_intercept_click" format="boolean" />
+
+    </declare-styleable>
+
+</resources>

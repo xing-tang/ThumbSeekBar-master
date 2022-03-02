@@ -1,0 +1,3 @@
+include ':thumbseekbar'
+include ':app'
+rootProject.name = "ThumbSeekBar-master"
